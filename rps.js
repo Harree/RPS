@@ -1,4 +1,9 @@
+for(i = 0; i < 5; i++) {
+   console.log(game());
+}
 
+
+function game() {
 function computerPlay() {
 
     let computerChoices = ['Rock', 'Paper', 'Scissors'];
@@ -19,7 +24,6 @@ let playerPlay = function() {
 let playerSelection = playerPlay();
 // console.log(playerSelection)
 
-function singleRound(playerSelection, computerSelection) {
     if(playerSelection != "Rock" && playerSelection != "Paper" && playerSelection != "Scissors") {
         
         return "Invalid Selection, please pick Rock, paper or scissors"
@@ -32,6 +36,6 @@ function singleRound(playerSelection, computerSelection) {
         return `Draw!`
     }
     else {return `You lose! ${computerSelection} beats ${playerSelection}`}
-}
 
-console.log(singleRound(playerSelection, computerSelection))
+    
+}

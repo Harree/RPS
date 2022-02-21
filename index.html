@@ -6,9 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="#">
     <title>Rock Paper Scissors</title>
-    <script src="rps.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="rps.js" defer></script>
 </head>
 <body>
-    
+    <div class="buttons">
+        <button class="button" id="rock">Rock</button>
+        <button class="button" id="paper">Paper</button>
+        <button class="button" id="scissors">Scissors</button>
+        <button class="resetButton" id="reset">Reset (resets the game) </button>
+    </div>
+
+    <p class="roundResult" id="roundResult"> </p>
+
+    <div class="who">
+        <p>Human</p>
+        <p>Computer</p>
+    </div>
+
+    <div class="scores">
+     <p id="playerPoints"></p>
+     <p id="computerPoints"></p>
+    </div>
+
+    <p class="finalResult" id="finalResult"></p>
 </body>
 </html>

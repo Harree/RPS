@@ -1,0 +1,42 @@
+html {
+    background-color: #CD946A;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 50px;
+}
+
+.button {
+    display: flex;
+    margin: 10px;
+}
+
+.scores {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -20px;
+}
+
+.who {
+    display: flex;
+    justify-content: space-around;
+}
+
+.roundResult {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.finalResult {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
